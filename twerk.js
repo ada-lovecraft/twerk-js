@@ -43,6 +43,7 @@ var twerkjs = function (evt) {
     player = self.getPlayer()
     player.stop()
   }
+  
   return {
     getLow: function() {
       self.twerk();
@@ -54,4 +55,3 @@ var twerkjs = function (evt) {
 }
 
 var twerk = new twerkjs();
-console.log(twerk)
