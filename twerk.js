@@ -13,14 +13,11 @@ var twerkjs = function (evt) {
     $player = self.getPlayer();
 
     $player.addEventListener('ended', function() {
-      console.log('song ended');
       $('.twerk').removeClass('twerking')
     })
   }
 
   this.getAudioFor = function(player){
-    console.log('twerkAudio:', twerkAudio)
-    console.log ('player:', player)
     if(player.canPlayType("audio/mp3")) {
       return twerkAudio.mp3;
     } else if(player.canPlayType("audio/ogg")) {
@@ -32,10 +29,9 @@ var twerkjs = function (evt) {
     var  player
      , $body = $('body')
      , $player = $('body audio')[0]
-    console.log('$player:', $player)
+
 
     if (!$player)
-      console.log('creating audio')
       $body.append('<audio/>');
       $player = $body.find('audio')[0];
 
