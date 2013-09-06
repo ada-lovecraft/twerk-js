@@ -1,7 +1,7 @@
 #twerk.js
 shake dat ass
 
-**Demo**: http://codevinsky.github.io/twerk.js
+**Demo**: http://codevinsky.github.io/twerk-js
 
 ###Requires jQuery
 
