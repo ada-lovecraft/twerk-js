@@ -1,11 +1,11 @@
 #twerk.js
 shake dat ass
 
-**Demo**: http://codevinsky.github.io/twerk-js
+**Demo**: http://codevinsky.github.io/twerk.js
 
 ###Requires jQuery
 
-1. Include the two twerk files after jquery.
+1. Include *twerk.css*, *twerk-audio.js* and *twerk.js* 
 
 2. Assign the "twerk" class to any element you want to twerk.
 
